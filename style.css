@@ -49,3 +49,12 @@ footer{
     text-align: center;
     color: gray;
 }
+a{
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+}
