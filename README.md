@@ -1,21 +1,41 @@
-┌────────────────────────────┐
-│ João Pedro                 │
-│ Estudante de Tecnologia    │
-│ [GitHub] [LinkedIn]        │
-└────────────────────────────┘
+👋 João Pedro
 
-Sobre Mim
+Estudante de Tecnologia e Desenvolvimento Web.
 
-Projetos
+------------------------------------------------------------------------------------------------
 
-┌────────────┐ ┌────────────┐
-│ Projeto 1  │ │ Projeto 2  │
-└────────────┘ └────────────┘
+📖 Sobre Mim
 
-┌────────────┐
-│ Projeto 3  │
-└────────────┘
+Sou estudante apaixonado por programação, desenvolvimento web e tecnologia.
 
-Contato
+Este portfólio reúne projetos acadêmicos e pessoais desenvolvidos ao longo da minha formação.
 
-Rodapé
+------------------------------------------------------------------------------------------------
+
+ 🚀 Projetos
+
+ 💻 Projeto em C
+Algoritmos e lógica de programação.
+
+ 🌐 Site HTML e CSS
+Desenvolvimento web utilizando HTML e CSS.
+
+ 📚 Algoritmos Acadêmicos
+Exercícios e desafios computacionais.
+
+-------------------------------------------------------------------------------------------------
+
+🔗 Links
+
+- GitHub: https://github.com/joaopedrotbarcellos-debug
+- LinkedIn: SEU_LINKEDIN
+
+--------------------------------------------------------------------------------------------------
+
+📬 Contato
+
+Email: joaopedrot.barcellos@gmail.com
+
+---
+
+© 2026 João Pedro
