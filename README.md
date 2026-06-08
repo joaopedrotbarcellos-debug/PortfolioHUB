@@ -28,7 +28,7 @@ Exercícios e desafios computacionais.
 🔗 Links
 
 - GitHub: https://github.com/joaopedrotbarcellos-debug
-- LinkedIn: SEU_LINKEDIN
+- LinkedIn: linkedin.com/in/joao-pedro-teixeira-barcellos-43985b3ab
 
 --------------------------------------------------------------------------------------------------
 
