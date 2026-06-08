@@ -1,11 +1,21 @@
-# PortfolioHUB
+┌────────────────────────────┐
+│ João Pedro                 │
+│ Estudante de Tecnologia    │
+│ [GitHub] [LinkedIn]        │
+└────────────────────────────┘
 
-Meu portfólio acadêmico desenvolvido para a disciplina.
+Sobre Mim
 
-## Tecnologias
-- HTML
-- CSS
-- GitHub
+Projetos
 
-## Autor
-João Pedro
+┌────────────┐ ┌────────────┐
+│ Projeto 1  │ │ Projeto 2  │
+└────────────┘ └────────────┘
+
+┌────────────┐
+│ Projeto 3  │
+└────────────┘
+
+Contato
+
+Rodapé
