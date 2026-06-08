@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 *{
     margin:0;
     padding:0;
@@ -6,9 +10,10 @@
 
 body{
     background:linear-gradient(
-    135deg,
-    #0f172a,
-    #111827
+        135deg,
+        #020617,
+        #0f172a,
+        #111827
     );
 
     color:white;
@@ -16,22 +21,31 @@ body{
     font-family:'Segoe UI',sans-serif;
 
     line-height:1.6;
+
+    min-height:100vh;
 }
+
+/* CABEÇALHO */
 
 .hero{
 
     text-align:center;
 
-    padding:80px 20px;
+    padding:120px 20px 100px;
+
+    border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
 .hero h1{
 
-    font-size:4rem;
+    font-size:4.5rem;
 
     color:#38bdf8;
 
-    margin-bottom:10px;
+    margin-bottom:15px;
+
+    text-shadow:
+    0 0 15px rgba(56,189,248,0.3);
 }
 
 .cargo{
@@ -40,8 +54,10 @@ body{
 
     font-size:1.2rem;
 
-    margin-bottom:25px;
+    margin-bottom:30px;
 }
+
+/* BOTÕES */
 
 .links a{
 
@@ -49,25 +65,35 @@ body{
 
     margin:10px;
 
-    padding:12px 20px;
+    padding:14px 24px;
 
-    border-radius:8px;
+    border-radius:10px;
 
     background:#38bdf8;
 
-    color:#000;
+    color:#0f172a;
 
     font-weight:bold;
 
     text-decoration:none;
 
-    transition:.3s;
+    transition:0.3s;
+
+    box-shadow:
+    0 4px 15px rgba(56,189,248,0.3);
 }
 
 .links a:hover{
 
-    transform:translateY(-3px);
+    transform:
+    translateY(-4px)
+    scale(1.05);
+
+    box-shadow:
+    0 8px 25px rgba(56,189,248,0.4);
 }
+
+/* CONTEÚDO */
 
 .container{
 
@@ -75,19 +101,25 @@ body{
     max-width:1200px;
 
     margin:auto;
+
+    padding-top:60px;
 }
 
 section{
 
-    margin-bottom:60px;
+    margin-bottom:70px;
 }
 
 h2{
 
-    margin-bottom:20px;
+    margin-bottom:25px;
 
     color:#38bdf8;
+
+    font-size:2rem;
 }
+
+/* GRID */
 
 .grid{
 
@@ -99,32 +131,91 @@ h2{
     gap:20px;
 }
 
+/* CARDS */
+
 .card{
 
     background:#1e293b;
 
     padding:25px;
 
-    border-radius:12px;
-
-    transition:.3s;
+    border-radius:16px;
 
     border:1px solid #334155;
+
+    transition:0.3s;
+
+    backdrop-filter:blur(5px);
+}
+
+.card h3{
+
+    margin-bottom:10px;
 }
 
 .card:hover{
 
-    transform:translateY(-5px);
+    transform:translateY(-6px);
 
     box-shadow:
-    0 10px 25px rgba(0,0,0,.3);
+    0 15px 30px rgba(0,0,0,0.35);
 }
+
+/* LINKS DENTRO DOS CARDS */
+
+.card a{
+
+    color:#38bdf8;
+
+    text-decoration:none;
+
+    font-weight:bold;
+}
+
+.card a:hover{
+
+    text-decoration:underline;
+}
+
+/* RODAPÉ */
 
 footer{
 
     text-align:center;
 
-    padding:30px;
+    padding:40px;
 
     color:#94a3b8;
+
+    border-top:1px solid rgba(255,255,255,0.08);
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:80px 20px;
+    }
+
+    .hero h1{
+
+        font-size:3rem;
+    }
+
+    .cargo{
+
+        font-size:1rem;
+    }
+
+    .container{
+
+        width:95%;
+    }
+
+    h2{
+
+        font-size:1.7rem;
+    }
 }
